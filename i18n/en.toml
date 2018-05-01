@@ -6,3 +6,6 @@ other = "404: Page not found"
 
 [404-message]
 other = "The page you are looking for either doesn't exist, or it has been deleted."
+
+[translations]
+other = "Also available in:"
