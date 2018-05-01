@@ -9,7 +9,7 @@
   {{ .Summary }}
   {{ if .Truncated }}
   <div class="read-more-link">
-    <a href="{{ .RelPermalink }}">Mai mult</a>
+   <a href="{{ .RelPermalink }}"> {{ i18n "posts-summary-more-link" }} </a>
   </div>
   {{ end }}
 </div>
