@@ -1,9 +1,9 @@
 {{ define "main" -}}
+{{ partial "i18n_list.html" . }}
 <div class="post">
   <h1>{{ .Title }}</h1>
   <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
   {{ .Content }}
-  {{ partial "i18n_list.html" . }}
 </div>
 
 {{ if .Site.DisqusShortname -}}

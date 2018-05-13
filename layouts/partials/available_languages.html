@@ -1,5 +1,5 @@
-<ul>
-{{ range $.Site.Home.AllTranslations }}
-<li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-{{ end }}
-</ul>
+<div style="padding-bottom: 10%;">
+    {{ range $.Site.Home.AllTranslations }}
+    <span style="padding-right: 10px;"><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></span>
+    {{ end }}
+</div>

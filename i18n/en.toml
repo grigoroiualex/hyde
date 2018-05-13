@@ -8,4 +8,4 @@ other = "404: Page not found"
 other = "The page you are looking for either doesn't exist, or it has been deleted."
 
 [translations]
-other = "Also available in:"
+other = "Also available in"
