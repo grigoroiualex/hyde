@@ -1,4 +1,4 @@
 {{ define "main" -}}
-<h1>404: Page not found</h1>
-<p class="lead">Se pare că pagina căutată nu există. Înapoi <a href="{{ .Site.BaseURL }}">pagina principală</a> și hai să mai încercăm o dată.</p>
+<h1>{{ i18n "404-title" }}</h1>
+<p class="lead">{{ i18n "404-message" }}</p>
 {{- end }}
