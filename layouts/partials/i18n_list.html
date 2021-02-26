@@ -1,0 +1,10 @@
+{{ if .IsTranslated }}
+<div style="text-align: right; padding-bottom: 10px;">
+    <span style="font-weight: bold;">{{ i18n "translations" }}:</span> 
+    {{ range .Translations }}
+    <span style="padding-left: 10px;">
+        <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+    </span>
+    {{ end}}
+</div>
+{{ end }}
